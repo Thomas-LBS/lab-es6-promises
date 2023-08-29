@@ -155,7 +155,7 @@ makeBroccoli()
 // Bonus 2 - Promise all
 async function showImg() {
   try {
-    let response1 = await firstFuncFunc
+    let response1 = await firstFunc
     document.querySelector("#mashedPotatoesImg").style.display = "block"
     let response2 = await secondFunc
     document.querySelector("#steakImg").style.display = "block"
